@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>STS.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="weather" class="weather">
+            <div class="weather__top">
+                <div class="weather__locate">
+                    <div class="weather__locate__city">Кременчук</div>
+                    <div class="weather__locate__info">
+                        <div class="weather__locate__icon">
+                            <img src="img/location.svg" alt="location">
+                        </div>
+                        <div class="weather__locate__text">Ваше містознаходження</div>
+                    </div>
+                </div>
+                <div class="weather__menu">
+                    <a href="#"><img src="img/theme.svg" alt="theme"></a>
+                    <a href="#"><img src="img/lang.svg" alt="lang"></a>
+                    <a href="#"><img src="img/project.svg" alt="project"></a>
+                </div>
+            </div>
+        </div>
+        <div class="weather__value">
+            <div class="weather__value__main">
+                <div class="weather__value__icon">
+                    <img src="img/sun.svg" alt="sun">
+                </div>
+                <div class="weather__value__temperature"><span id="temperature">16</span>°</div>
+            </div>
+            <div class="weather__state">Відчувається як +29° Мінлива хмарність. Без опадів</div>
+        </div>
+        
+        <div class="weather__data">
+            <div class="weather__data__column">
+                <div class="weather__data__column__header">Вологість:</div>
+                <div class="weather__data__column__value"><span class="weather__data__column__integer" id="humidity">50.13</span> %</div>
+            </div>
+            <div class="weather__data__column">
+                <div class="weather__data__column__header">Атмосферний тиск:</div>
+                <div class="weather__data__column__value"><span class="weather__data__column__integer" id="pressure">751.3</span> мм рт. ст.</div>
+            </div>
+            <div class="weather__data__column">
+                <div class="weather__data__column__header">Висота:</div>
+                <div class="weather__data__column__value"><span class="weather__data__column__integer" id="height">97.17</span> м</div>
+            </div>
+        </div>
+
+        <div class="weather__footer">Created by Yevhenii Sukhominskyi</div>
+    </div>
+    
+</body>
+</html>
