@@ -41,7 +41,7 @@ body{
 }
 
 .weather__value{  
-    padding-top: 116px;
+    padding-top: 100px;
 }
 
 .weather__value__main{
@@ -90,5 +90,5 @@ body{
 .weather__footer{
     text-align: center;
     font-size: 12px;
-    padding-top: 150px;
+    padding-top: 180px;
 }
