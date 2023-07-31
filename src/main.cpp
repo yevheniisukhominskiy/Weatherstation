@@ -81,8 +81,9 @@ String getContentType(String filename)
 {                                 
     if (filename.endsWith(".html")) return "text/html";                   
     else if (filename.endsWith(".css")) return "text/css"; 
-    else if (filename.endsWith(".js")) return "application/javascript"; 
-    else if (filename.endsWith(".png")) return "image/png";           
+    else if (filename.endsWith(".js")) return "application/javascript";
+    else if (filename.endsWith(".png")) return "image/png";
+    else if (filename.endsWith(".svg")) return "image/svg+xml";           
     else if (filename.endsWith(".jpg")) return "image/jpeg";        
     else if (filename.endsWith(".gif")) return "image/gif";              
     else if (filename.endsWith(".ico")) return "image/x-icon";         
@@ -94,13 +95,17 @@ void sendSensorData()
 {
     /*----------------------------BME280----------------------------*/
     float pressure = bme.readPressure(); // Read pressure in [Pa]
+    int temperature = bme.readTemperature();
+    double humidity = bme.readHumidity();
+    double pressureMmHg = pressureToMmHg(pressure);
+    double height = pressureToAltitude(pressure);
 
     // Prepare data in JSON format
     String sensorData = "{";
-    sensorData += "\"temperature\": " + String(bme.readTemperature()) + ",";
-    sensorData += "\"humidity\": " + String(bme.readHumidity()) + ",";
-    sensorData += "\"pressure\": " + String(pressureToMmHg(pressure)) + ",";    // Output pressure in [mmHg. pillar]
-    sensorData += "\"height\": " + String(pressureToAltitude(pressure));      // Print height in [m a.s.l. seas]
+    sensorData += "\"temperature\": " + String(temperature) + ",";
+    sensorData += "\"humidity\": " + String(humidity) + ",";
+    sensorData += "\"pressure\": " + String(pressureMmHg) + ",";    // Output pressure in [mmHg. pillar]
+    sensorData += "\"height\": " + String(height);      // Print height in [m a.s.l. seas]
     sensorData += "}";
 
     // Send the JSON data as the response to the client
