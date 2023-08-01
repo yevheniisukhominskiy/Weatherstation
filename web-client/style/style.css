@@ -50,8 +50,7 @@ body{
     align-items: center;
 }
 
-.weather__value__icon
-{
+.weather__value__icon_weatherIcon{
     width: 200px;
     height: 200px;
 }
