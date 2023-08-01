@@ -63,4 +63,4 @@ function updateSensorData() {
 }
 
 // Call the updateSensorData() function every 20 seconds
-setInterval(updateSensorData, 20000);
+setInterval(updateSensorData, 5000);

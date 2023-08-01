@@ -23,18 +23,17 @@ body{
     align-items: center;
 }
 
-.weather__locate__city{
+.weather__top__name{
+    font-size: 48px;
     font-weight: bold;
-    font-size: 64px;
 }
 
-.weather__locate__info{
-    display: flex;
-    justify-content: space-between;
-    width: 230px;
+.weather__top__name__version{
+    font-size: 16px;
+    font-weight: normal;
 }
 
-.weather__menu{
+.weather__top__menu{
     width: 220px;
     display: flex;
     justify-content: space-between;
@@ -89,5 +88,5 @@ body{
 .weather__footer{
     text-align: center;
     font-size: 12px;
-    padding-top: 180px;
+    padding-top: 200px;
 }
