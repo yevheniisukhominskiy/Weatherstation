@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/>
     <link rel="stylesheet" href="style/style.css">
-    <title>STS.</title>
+    <link rel="stylesheet" href="style/light-mode.css" id="theme">
+    <title>Weatherstation</title>
 </head>
 <body>
     <div class="wrapper">
@@ -13,9 +13,9 @@
             <div class="weather__top">
                 <div class="weather__top__name">Weatherstation<span class="weather__top__name__version"> v. 1.0</span></div>
                 <div class="weather__top__menu">
-                    <a href="#"><img src="img/menu/theme.svg" alt="theme"></a>
+                    <a href="#"><img src="img/menu/theme-dark.svg" alt="theme" id="switchMode"></a>
                     <a href="#"><img src="img/menu/lang.svg" alt="lang"></a>
-                    <a href="#"><img src="img/menu/project.svg" alt="project"></a>
+                    <a target="_blank" href="https://github.com/yevheniisukhominskiy/Weatherstation"><img src="img/menu/project.svg" alt="project"></a>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="weather__footer">Created by Yevhenii Sukhominskyi</div>
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/mode.js"></script>
 </body>
 </html>
