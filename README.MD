@@ -31,7 +31,7 @@
 
 ---
 
-<img src="https://i.ibb.co/grys3kq/image.png" alt="image" border="0">
+<img src="https://i.ibb.co/H42vmYb/image.png" alt="image" border="0">
 
 ---
 
