@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://i.ibb.co/dQqY4X5/Weatherstation.png" alt="Weatherstation" border="0" width=700px>
+   <img src="https://i.ibb.co/8c1HjPm/Weatherstation.png" alt="Weatherstation" border="0" width=700px>
 </p>
 
   
