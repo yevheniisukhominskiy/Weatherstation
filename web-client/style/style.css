@@ -33,7 +33,7 @@ body{
 }
 
 .weather__top__menu{
-    width: 220px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }

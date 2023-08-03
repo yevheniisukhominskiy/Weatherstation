@@ -9,8 +9,6 @@
     <img src="https://img.shields.io/github/license/yevheniisukhominskiy/Weatherstation?style=for-the-badge" alt="License">
 </p>
 
-  
-
 ## Content
 
 1. [Overview](https://github.com/yevheniisukhominskiy/Weatherstation#overview)
@@ -31,15 +29,24 @@
 
 6. [Warning](https://github.com/yevheniisukhominskiy/Weatherstation#warning)
 
+---
+
+<img src="https://i.ibb.co/grys3kq/image.png" alt="image" border="0">
+
+---
+
 ## Overview
 
 **Weatherstation** is a software application of a weather station with a web interface, designed for measuring atmospheric parameters such as temperature, humidity, and atmospheric pressure, as well as for generating weather forecasts based on these data.
+
+
 ## Documentation
 #### Required components
 
 This project utilizes only two components: the ESP8266 microcontroller and the BME280 sensor module (temperature, humidity, pressure).
 
 The project does not support other microcontrollers, but it doesn't mean you cannot experiment with other Arduino components.
+
 #### Connection
 
 | **ESP8266** | **BME280** |
