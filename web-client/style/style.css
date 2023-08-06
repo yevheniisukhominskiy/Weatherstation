@@ -1,86 +1,72 @@
-body{
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: white;
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
 }
 
-.wrapper{
-    margin: 0 auto;
-    width: 1600px;
+.wrapper {
+  margin: 0 auto;
+  width: 1600px;
+}
+.wrapper .weather .weather__top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .weather .weather__top .weather__top__name {
+  font-size: 48px;
+  font-weight: bold;
+}
+.wrapper .weather .weather__top .weather__top__menu {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .weather__value {
+  padding-top: 100px;
+}
+.wrapper .weather__value .weather__value__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .weather__value .weather__value__main .weather__value__icon_weatherIcon {
+  width: 200px;
+  height: 200px;
+}
+.wrapper .weather__value .weather__value__main .weather__value__temperature {
+  font-size: 256px;
+}
+.wrapper .wrapper.weather__value .weather__state {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .weather__state {
+  text-align: center;
+}
+.wrapper .weather__data {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.wrapper .weather__data .weather__data__column .weather__data__column__value {
+  font-size: 20px;
+}
+.wrapper .weather__data .weather__data__column .weather__data__column__value .weather__data__column__integer {
+  font-size: 36px;
+  font-weight: 400;
+}
+.wrapper .weather__footer {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 200px;
 }
 
-.wrapper .weather .weather__top{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.wrapper .weather .weather__top .weather__top__name{
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.weather .weather__top .weather__top__name .weather__top__name__version{
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.wrapper .weather .weather__top .weather__top__menu{
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.wrapper .weather__value{  
-    padding-top: 100px;
-}
-
-.wrapper .weather__value .weather__value__main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper .weather__value .weather__value__main .weather__value__icon_weatherIcon{
-    width: 200px;
-    height: 200px;
-}
-
-.wrapper .weather__value .weather__value__main .weather__value__temperature{
-    font-size: 256px;
-}
-
-.wrapper .wrapper.weather__value .weather__state
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.wrapper .weather__state{
-    text-align: center;
-}
-
-.wrapper .weather__data{
-    display: flex;
-    width: 900px;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 150px;
-}
-
-.wrapper .weather__data .weather__data__column .weather__data__column__value{
-    font-size: 20px;
-}
-
-.wrapper .weather__data .weather__data__column .weather__data__column__value .weather__data__column__integer{
-    font-size: 36px;
-    font-weight: 400;
-}
-
-.wrapper .weather__footer{
-    text-align: center;
-    font-size: 12px;
-    padding-top: 200px;
+.weather .weather__top .weather__top__name .weather__top__name__version {
+  font-size: 16px;
+  font-weight: normal;
 }
