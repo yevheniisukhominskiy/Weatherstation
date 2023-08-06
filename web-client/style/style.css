@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
@@ -15,59 +10,59 @@ body{
     width: 1600px;
 }
 
-.weather__top{
+.wrapper .weather .weather__top{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.weather__top__name{
+.wrapper .weather .weather__top .weather__top__name{
     font-size: 48px;
     font-weight: bold;
 }
 
-.weather__top__name__version{
+.weather .weather__top .weather__top__name .weather__top__name__version{
     font-size: 16px;
     font-weight: normal;
 }
 
-.weather__top__menu{
+.wrapper .weather .weather__top .weather__top__menu{
     width: 100px;
     display: flex;
     justify-content: space-between;
 }
 
-.weather__value{  
+.wrapper .weather__value{  
     padding-top: 100px;
 }
 
-.weather__value__main{
+.wrapper .weather__value .weather__value__main{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.weather__value__icon_weatherIcon{
+.wrapper .weather__value .weather__value__main .weather__value__icon_weatherIcon{
     width: 200px;
     height: 200px;
 }
 
-.weather__value__temperature{
+.wrapper .weather__value .weather__value__main .weather__value__temperature{
     font-size: 256px;
 }
 
-.weather__state
+.wrapper .wrapper.weather__value .weather__state
 {
     display: flex;
     flex-direction: column;
 }
 
-.weather__state{
+.wrapper .weather__state{
     text-align: center;
 }
 
-.weather__data{
+.wrapper .weather__data{
     display: flex;
     width: 900px;
     justify-content: space-between;
@@ -75,16 +70,16 @@ body{
     padding-top: 150px;
 }
 
-.weather__data__column__value{
+.wrapper .weather__data .weather__data__column .weather__data__column__value{
     font-size: 20px;
 }
 
-.weather__data__column__integer{
+.wrapper .weather__data .weather__data__column .weather__data__column__value .weather__data__column__integer{
     font-size: 36px;
     font-weight: 400;
 }
 
-.weather__footer{
+.wrapper .weather__footer{
     text-align: center;
     font-size: 12px;
     padding-top: 200px;
