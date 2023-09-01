@@ -6,7 +6,10 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Version-1.0-violet?style=for-the-badge" alt="Version">
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/yevheniisukhominskiy/Weatherstation/total?style=for-the-badge">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/yevheniisukhominskiy/Weatherstation?style=for-the-badge">
     <img src="https://img.shields.io/github/license/yevheniisukhominskiy/Weatherstation?style=for-the-badge" alt="License">
+	
 </p>
 
 ## Content
