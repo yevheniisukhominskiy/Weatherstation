@@ -1,0 +1,65 @@
+/* Large Devices, Wide Screens */
+@media screen and (max-wigth: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media screen and (max-wigth: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+    .wrapper .weather .weather__top {
+        padding-top: 25px;
+        flex-direction: column;
+    }
+    .wrapper .weather .weather__top .weather__top__name {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .wrapper .weather .weather__top .weather__top__menu {
+        padding-top: 25px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper .weather__value .weather__value__main {
+        flex-direction: column;
+    }
+    .wrapper .weather__value .weather__value__main .weather__value__icon_weatherIcon {
+        width: 200px;
+        height: 200px;
+    }
+    .wrapper .weather__value .weather__value__main .weather__value__temperature {
+        font-size: 128px;
+    }
+    .weather__state span {
+        font-size: 14px;
+    }
+    .wrapper .weather__data {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .wrapper .weather__data .weather__data__column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+    .wrapper .weather__footer {
+        padding-top: 100px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-wigth: 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media screen and (max-wigth: 320px) {
+
+}
+
